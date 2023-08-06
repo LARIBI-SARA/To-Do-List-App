@@ -1,0 +1,125 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(135deg, #89ee84,#2fc7a3);
+    margin: 20px 15px;
+}
+
+h1 {
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgb(149, 18, 18);
+}
+.title h1 {
+    border-radius: 25px;
+    padding: 4px 10px;
+    background-color: #333;
+    color: white;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid rgb(238, 238, 239);
+    background-color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+.input-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px 8px;
+    font-size: 700;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li:nth-child(even) {
+    display: flex;
+    align-items: center;
+    margin: 15px 30px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+    background-color: beige;
+    flex-wrap: nowrap;
+}
+li:nth-child(odd) {
+    display: flex;
+    align-items: center;
+    margin: 15px 30px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+    background-color: rgb(247, 218, 183);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.delete-btn{
+    margin-left: 1250px;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border:none ;
+    border-radius: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+.edit-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border:none ;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.add-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    border:none ;
+    border-radius: 12px;
+    margin-right: 3px;
+    cursor: pointer;
+
+}
+.save-btn{
+    margin-left: 3px;
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    border:none ;
+    border-radius: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
